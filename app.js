@@ -9,7 +9,7 @@ roll.addEventListener("click", () => {
   rollDice = Math.floor(Math.random() * 6) + 1;
   if (rollDice == 1) {
     dice.src = "/images/dice1.png";
-    scoreNum.innerText = "YOU LOSE";
+    scoreText.innerText = "YOU LOSE";
     score = 0;
   } else if (rollDice == 2) {
     dice.src = "/images/dice2.png";
