@@ -22,14 +22,16 @@ body {
 
 #roll {
   display: block;
-  margin: auto 1200px;
+  position: relative;
+  top: auto;
+  left: 28.5em;
   text-align: center;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 30px;
 }
 
 #dice {
-  display: flex;
-  align-items: center;
-  margin: auto 1210px;
+  position: relative;
+  top: auto;
+  left: 55.4em;
 }
