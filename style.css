@@ -6,6 +6,16 @@ body {
   text-align: center;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 80px;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #scoreText {
@@ -18,6 +28,10 @@ body {
   text-align: center;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 50px;
+}
+
+#roll:hover {
+  background-color: lightgreen;
 }
 
 #roll {
